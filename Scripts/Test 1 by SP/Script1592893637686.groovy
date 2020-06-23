@@ -15,3 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser("https://lifecharger.org/")
+WebUI.click(findTestObject("Object Repository/click"));
+WebUI.closeBrowser();
